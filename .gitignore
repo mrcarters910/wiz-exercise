@@ -1,0 +1,18 @@
+# Python / Node common ignores (adjust later)
+node_modules/
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+
+# Terraform (if you add it later)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Mac
+.DS_Store
